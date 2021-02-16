@@ -580,10 +580,21 @@ IPrintAt (
     );
 
 UINTN
-APrint (
+AsciiPrint (
     IN CONST CHAR8    *fmt,
     ...
     );
+
+/* For compatibility with previous versions */
+#define APrint AsciiPrint
+
+UINTN
+AsciiVSPrint(
+    OUT CHAR8         *Str,
+    IN  UINTN         StrSize,
+    IN  CONST CHAR8   *fmt,
+    va_list           args
+);
 
 VOID
 ValueToHex (
