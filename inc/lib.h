@@ -27,13 +27,13 @@ Revision History
 //
 // Include non architectural protocols
 //
-#include "efivar.h"
-#include "legacyboot.h"
-#include "intload.h"
-#include "vgaclass.h"
-#include "eficonsplit.h"
-#include "adapterdebug.h"
-#include "intload.h"
+#include "protocol/efivar.h"
+#include "protocol/legacyboot.h"
+#include "protocol/intload.h"
+#include "protocol/vgaclass.h"
+#include "protocol/eficonsplit.h"
+#include "protocol/adapterdebug.h"
+#include "protocol/intload.h"
 
 #include "efigpt.h"
 #include "libsmbios.h"
