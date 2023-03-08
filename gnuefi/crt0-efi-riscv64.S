@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0+ */
+/* SPDX-License-Identifier: GPL-2.0+ OR BSD-2-Clause */
 /*
  * Copright (C) 2014 Linaro Ltd. <ard.biesheuvel@linaro.org>
  * Copright (C) 2018 Alexander Graf <agraf@suse.de>
