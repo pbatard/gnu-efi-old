@@ -20,7 +20,15 @@ Revision History
 
 --*/
 
+#if !defined(__cplusplus)
+#if defined(__STDC_VERSION__) && __STDC_VERSION__ >= 199901L
+typedef _Bool BOOLEAN;
+#else
 typedef unsigned char BOOLEAN;
+#endif
+#else
+typedef bool BOOLEAN;
+#endif
 
 #ifndef CONST
    #define CONST const
