@@ -38,7 +38,7 @@ typedef wchar_t                 CHAR16;
 typedef uint8_t                 BOOLEAN;
 #endif
 #undef VOID
-#define VOID                    void
+typedef void                    VOID;
 typedef int64_t                 INTN;
 typedef uint64_t                UINTN;
 
