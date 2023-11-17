@@ -211,7 +211,7 @@ StrDuplicate (
 }
 
 UINTN
-strlena (
+AsciiStrLen (
     IN CONST CHAR8    *s1
     )
 // string length
@@ -223,7 +223,7 @@ strlena (
 }
 
 UINTN
-strcmpa (
+AsciiStrCmp (
     IN CONST CHAR8    *s1,
     IN CONST CHAR8    *s2
     )
@@ -242,10 +242,10 @@ strcmpa (
 }
 
 UINTN
-strncmpa (
+AsciiStrnCmp (
     IN CONST CHAR8    *s1,
     IN CONST CHAR8    *s2,
-    IN UINTN    len
+    IN UINTN          len
     )
 // compare strings
 {
