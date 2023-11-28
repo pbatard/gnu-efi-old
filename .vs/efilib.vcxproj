@@ -424,6 +424,43 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\efi.h" />
+    <ClInclude Include="..\inc\efiapi.h" />
+    <ClInclude Include="..\inc\eficompiler.h" />
+    <ClInclude Include="..\inc\eficon.h" />
+    <ClInclude Include="..\inc\eficonex.h" />
+    <ClInclude Include="..\inc\efidebug.h" />
+    <ClInclude Include="..\inc\efidef.h" />
+    <ClInclude Include="..\inc\efidevp.h" />
+    <ClInclude Include="..\inc\efierr.h" />
+    <ClInclude Include="..\inc\efifs.h" />
+    <ClInclude Include="..\inc\efigpt.h" />
+    <ClInclude Include="..\inc\efiip.h" />
+    <ClInclude Include="..\inc\efilib.h" />
+    <ClInclude Include="..\inc\efilink.h" />
+    <ClInclude Include="..\inc\efinet.h" />
+    <ClInclude Include="..\inc\efipart.h" />
+    <ClInclude Include="..\inc\efipciio.h" />
+    <ClInclude Include="..\inc\efipoint.h" />
+    <ClInclude Include="..\inc\efiprot.h" />
+    <ClInclude Include="..\inc\efipxebc.h" />
+    <ClInclude Include="..\inc\efirtlib.h" />
+    <ClInclude Include="..\inc\efiser.h" />
+    <ClInclude Include="..\inc\efisetjmp.h" />
+    <ClInclude Include="..\inc\efishell.h" />
+    <ClInclude Include="..\inc\efishellintf.h" />
+    <ClInclude Include="..\inc\efistdarg.h" />
+    <ClInclude Include="..\inc\efitcp.h" />
+    <ClInclude Include="..\inc\efiudp.h" />
+    <ClInclude Include="..\inc\efiui.h" />
+    <ClInclude Include="..\inc\efi_nii.h" />
+    <ClInclude Include="..\inc\efi_pxe.h" />
+    <ClInclude Include="..\inc\lib.h" />
+    <ClInclude Include="..\inc\libsmbios.h" />
+    <ClInclude Include="..\inc\pci22.h" />
+    <ClInclude Include="..\inc\romload.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

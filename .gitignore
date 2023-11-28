@@ -4,3 +4,15 @@
 *.a
 *.tar.*
 *.tar
+# Visual Studio intermediate files
+*.suo
+*.opensdf
+*.opendb
+*.db*
+*.ipch
+*.vsidx
+# Visual Studio Output/Debug directories
+arm
+aa64
+ia32
+x64
