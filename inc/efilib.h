@@ -69,6 +69,8 @@ extern EFI_GUID gEfiSimpleTextInProtocolGuid;
 #define TextInProtocol gEfiSimpleTextInProtocolGuid
 extern EFI_GUID gEfiSimpleTextOutProtocolGuid;
 #define TextOutProtocol gEfiSimpleTextOutProtocolGuid
+extern EFI_GUID gEfiSimpleTextInExProtocolGuid;
+#define TextInExProtocol gEfiSimpleTextInExProtocolGuid
 extern EFI_GUID gEfiGraphicsOutputProtocolGuid;
 #define GraphicsOutputProtocol gEfiGraphicsOutputProtocolGuid
 extern EFI_GUID gEfiEdidDiscoveredProtocolGuid;

@@ -99,6 +99,7 @@ EFI_GUID gEfiDevicePathUtilitiesProtocolGuid        = EFI_DEVICE_PATH_UTILITIES_
 EFI_GUID gEfiLoadedImageProtocolGuid                = EFI_LOADED_IMAGE_PROTOCOL_GUID;
 EFI_GUID gEfiSimpleTextInProtocolGuid               = EFI_SIMPLE_TEXT_INPUT_PROTOCOL_GUID;
 EFI_GUID gEfiSimpleTextOutProtocolGuid              = EFI_SIMPLE_TEXT_OUTPUT_PROTOCOL_GUID;
+EFI_GUID gEfiSimpleTextInExProtocolGuid             = EFI_SIMPLE_TEXT_INPUT_EX_PROTOCOL_GUID;
 EFI_GUID gEfiBlockIoProtocolGuid                    = EFI_BLOCK_IO_PROTOCOL_GUID;
 EFI_GUID gEfiBlockIo2ProtocolGuid                   = EFI_BLOCK_IO2_PROTOCOL_GUID;
 EFI_GUID gEfiDiskIoProtocolGuid                     = EFI_DISK_IO_PROTOCOL_GUID;
