@@ -88,7 +88,7 @@ TARGETS = $(TARGET_APPS) $(TARGET_BSDRIVERS) $(TARGET_RTDRIVERS)
 all:	$(TARGETS)
 
 clean:
-	rm -f $(TARGETS) *~ *.o *.so
+	@rm -vf $(TARGETS) *~ *.o *.so
 
 .PHONY: install
 
