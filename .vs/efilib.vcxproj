@@ -318,7 +318,7 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\gnu-efi\lib\aarch64\initplat.c">
+    <ClCompile Include="..\lib\aarch64\initplat.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</ExcludedFromBuild>
@@ -328,7 +328,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\gnu-efi\lib\aarch64\math.c">
+    <ClCompile Include="..\lib\aarch64\math.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</ExcludedFromBuild>
@@ -338,7 +338,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\gnu-efi\lib\arm\initplat.c">
+    <ClCompile Include="..\lib\arm\initplat.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
@@ -348,7 +348,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\gnu-efi\lib\arm\math.c">
+    <ClCompile Include="..\lib\arm\math.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
@@ -358,20 +358,20 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\gnu-efi\lib\boxdraw.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\cmdline.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\console.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\crc.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\data.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\debug.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\dpath.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\error.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\event.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\exit.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\guid.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\hand.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\hw.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\ia32\initplat.c">
+    <ClCompile Include="..\lib\boxdraw.c" />
+    <ClCompile Include="..\lib\cmdline.c" />
+    <ClCompile Include="..\lib\console.c" />
+    <ClCompile Include="..\lib\crc.c" />
+    <ClCompile Include="..\lib\data.c" />
+    <ClCompile Include="..\lib\debug.c" />
+    <ClCompile Include="..\lib\dpath.c" />
+    <ClCompile Include="..\lib\error.c" />
+    <ClCompile Include="..\lib\event.c" />
+    <ClCompile Include="..\lib\exit.c" />
+    <ClCompile Include="..\lib\guid.c" />
+    <ClCompile Include="..\lib\hand.c" />
+    <ClCompile Include="..\lib\hw.c" />
+    <ClCompile Include="..\lib\ia32\initplat.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
@@ -381,7 +381,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\gnu-efi\lib\ia32\math.c">
+    <ClCompile Include="..\lib\ia32\math.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
@@ -391,19 +391,19 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\gnu-efi\lib\init.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\lock.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\misc.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\print.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\runtime\efirtlib.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\runtime\rtdata.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\runtime\rtlock.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\runtime\rtstr.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\runtime\vm.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\smbios.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\sread.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\str.c" />
-    <ClCompile Include="..\..\gnu-efi\lib\x86_64\initplat.c">
+    <ClCompile Include="..\lib\init.c" />
+    <ClCompile Include="..\lib\lock.c" />
+    <ClCompile Include="..\lib\misc.c" />
+    <ClCompile Include="..\lib\print.c" />
+    <ClCompile Include="..\lib\runtime\efirtlib.c" />
+    <ClCompile Include="..\lib\runtime\rtdata.c" />
+    <ClCompile Include="..\lib\runtime\rtlock.c" />
+    <ClCompile Include="..\lib\runtime\rtstr.c" />
+    <ClCompile Include="..\lib\runtime\vm.c" />
+    <ClCompile Include="..\lib\smbios.c" />
+    <ClCompile Include="..\lib\sread.c" />
+    <ClCompile Include="..\lib\str.c" />
+    <ClCompile Include="..\lib\x86_64\initplat.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
@@ -413,7 +413,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\gnu-efi\lib\x86_64\math.c">
+    <ClCompile Include="..\lib\x86_64\math.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>

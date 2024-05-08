@@ -34,4 +34,4 @@ jobs:
 
     - name: Build
       shell: cmd
-      run: msbuild ${{ env.SOLUTION_FILE_PATH }} /m /p:Configuration=${{ matrix.CONFIGURATION }},Platform=${{ matrix.TARGET_PLATFORM }},ForceImportBeforeCppTargets=%GITHUB_WORKSPACE%\.vs\Generate.PDB.props
+      run: msbuild ${{ env.SOLUTION_FILE_PATH }} /m /p:Configuration=${{ matrix.CONFIGURATION }},Platform=${{ matrix.TARGET_PLATFORM }}
